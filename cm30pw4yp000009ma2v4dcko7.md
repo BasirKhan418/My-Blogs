@@ -86,7 +86,7 @@ With these services together, you can host your site with:
         
         ```bash
         npm i 
-        npm run build 
+        npm run build
         ```
         
         This generates a `build` folder with optimized files ready for deployment.
@@ -269,20 +269,3 @@ Here are some best practices to optimize performance, security, and scalability:
 Hosting your React website on AWS with S3 and CloudFront is an affordable and scalable solution that boosts your app’s performance globally. Following the above steps and best practices, you’ll achieve a secure, low-latency, and highly available website setup that’s optimized for users worldwide.
 
 By using CloudFront’s caching, compression, and Origin Shield options, along with carefully managed Cache-Control headers, you’ll ensure that your app is fast and responsive.
-
-#### SEO Keywords:
-
-* Host React on AWS S3
-    
-* Set up CloudFront for React website
-    
-* Low-latency website hosting
-    
-* S3 CloudFront integration tutorial
-    
-* AWS React app production setup
-    
-
----
-
-With these steps, you’re ready to deliver your React website through AWS’s powerful S3 and CloudFront services. Happy hosting!
