@@ -1,6 +1,6 @@
 ---
 title: "My Own Dns Server"
-seoTitle: "My Your Own DNS Server | Build and Deploy Step-by-Step Guide"
+seoTitle: "My Own DNS Server | Build and Deploy Step-by-Step Guide"
 seoDescription: ""Learn how to build and deploy your own DNS server with our comprehensive step-by-step guide. Optimize domain name resolution, improve network efficiency, a"
 datePublished: Sun Jan 05 2025 11:12:11 GMT+0000 (Coordinated Universal Time)
 cuid: cm5jijpan000109mmatxk9mrw
