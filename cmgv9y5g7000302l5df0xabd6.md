@@ -1,8 +1,8 @@
 ---
-title: "Valkey Installation on ubutu"
+title: "Valkey Installation on ubuntu"
 datePublished: Fri Oct 17 2025 20:01:28 GMT+0000 (Coordinated Universal Time)
 cuid: cmgv9y5g7000302l5df0xabd6
-slug: valkey-installation-on-ubutu
+slug: valkey-installation-on-ubuntu
 
 ---
 
