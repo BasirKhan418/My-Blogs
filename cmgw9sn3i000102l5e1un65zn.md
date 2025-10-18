@@ -138,6 +138,56 @@ jobs:
             pm2 restart all
 ```
 
+## OR
+
+```bash
+name: Deploy to EC2
+
+on:
+  push:
+    branches:
+      - master
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v3
+
+      - name: Deploy to EC2
+        uses: appleboy/ssh-action@v0.1.9
+        with:
+          host: ${{ secrets.EC2_HOST }}
+          username: ${{ secrets.EC2_USER }}
+          key: ${{ secrets.EC2_KEY }}
+          port: 22
+          script: |
+            # Load Node.js environment (handles nvm or global install)
+            if [ -f ~/.nvm/nvm.sh ]; then
+              echo "Using nvm environment"
+              source ~/.nvm/nvm.sh
+              nvm use node
+            else
+              echo "Using system-wide Node.js"
+              export PATH=$PATH:/usr/local/bin:/usr/bin
+            fi
+
+            cd /home/ubuntu/quick-test/backend
+            echo "Pulling latest code..."
+            git pull origin master
+
+            echo "Installing dependencies..."
+            npm install
+
+            echo "Building TypeScript..."
+            npx tsc -b
+
+            echo "Restarting PM2 process..."
+            pm2 restart all || pm2 start ecosystem.config.js --update-env
+```
+
 ---
 
 # **Step 6 — Secrets you need in GitHub**
