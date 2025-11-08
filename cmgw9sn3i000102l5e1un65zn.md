@@ -1,8 +1,12 @@
 ---
 title: "Setting up CI/CD Through Github Actions"
+seoTitle: "Setting up CI/CD Through Github"
+seoDescription: "Setting up CI/CD Through Github"
 datePublished: Sat Oct 18 2025 12:44:57 GMT+0000 (Coordinated Universal Time)
 cuid: cmgw9sn3i000102l5e1un65zn
 slug: setting-up-cicd-through-github-actions
+cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1762587435744/01125b42-26d5-4d91-b389-b303dd325710.webp
+ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1762587448982/43f9e1f4-51b1-4dd8-97d8-2dc86b6c791b.webp
 
 ---
 
