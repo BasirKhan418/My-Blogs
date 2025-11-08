@@ -1,8 +1,12 @@
 ---
 title: "Valkey Installation on ubuntu"
+seoTitle: "Valkey Installation on ubuntu"
+seoDescription: "Valkey Installation on ubuntu"
 datePublished: Fri Oct 17 2025 20:01:28 GMT+0000 (Coordinated Universal Time)
 cuid: cmgv9y5g7000302l5df0xabd6
 slug: valkey-installation-on-ubuntu
+cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1762587548853/32038a48-5688-4471-ae8c-bcb1806b231b.webp
+ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1762587571556/95131100-e078-4dcc-8afe-6e87f896fd5a.webp
 
 ---
 
